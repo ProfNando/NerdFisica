@@ -1,0 +1,89 @@
+:root{
+    --cor1: #0D00FF;
+    --cor2: #6803FF;
+    --cor3: #08ACF8;
+    --cor4: #00EBF3;
+    --cor5: #C9C4E6;
+}
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: var(--cor5);
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(90deg, var(--cor1), var(--cor4) );
+    text-align: center;
+    color: white;
+    padding: 30px;  
+}
+
+header h1{
+    padding: 15px;
+}
+
+nav{
+    background-color: var(--cor2);
+    border: 12px;
+    
+
+}
+
+nav li{
+    display: inline-block;
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+
+
+main{
+    max-width: 70%;
+    min-height: 500px;
+    margin: auto;
+    background-color: var(--cor3);
+    padding: 10px;
+
+}
+
+section{
+    background-color: var(--cor5);
+    border: 15px;
+    padding: 15px;
+}
+
+article{
+    min-height: 300px;
+    background-color:var(--cor2);
+    margin: 15px;
+}
+
+aside {
+    max-width: 250px;
+    max-height: 200px;
+    text-align: justify;
+    padding: 20px;
+    
+}
+
+aside > p{
+    max-width: 450px;
+    max-height: 200px;
+}
+
+.direita{
+     
+}
+
+footer{
+    background-color: var(--cor1);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+
