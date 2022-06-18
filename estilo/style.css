@@ -29,14 +29,16 @@ header h1{
 nav{
     background-color: var(--cor2);
     border: 12px;
-    
+    padding: 15px;
 
 }
 
 nav li{
     display: inline-block;
-    padding-left: 25px;
+    padding: 0px 40px;
     padding-bottom: 5px;
+    color: white;
+    font-weight: bolder;
 }
 
 
